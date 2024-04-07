@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.50">
-  <link rel="icon" type="image/x-icon" href="img/avatar.jpg">
-    <title>Kiselo | Page not found</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="ico/favicon.ico">
+    <title>404</title>
     <style>
         body {
-            font-family: 'Monospace';
-            background-color: #333; /* Updated background color to dark */
-            text-align: center;
-            padding-top: 100px;
+            font-family: Monospace;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .content {
+            text-align: left;
+            color: #8d8d8d;
         }
 
         h1 {
             font-size: 36px;
-            color: #fff; /* Updated text color to white */
             margin-bottom: 20px;
         }
 
         p {
             font-size: 18px;
-            color: #ccc; /* Updated text color to light gray */
             margin-bottom: 40px;
         }
 
         .btn {
-            font-family: 'Monospace'
             display: inline-block;
             padding: 10px 20px;
             background-color: #007bff;
@@ -34,15 +40,22 @@
             text-decoration: none;
             border-radius: 4px;
             font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>Page not found</h1>
-    <p>Страница которую ты ищешь не найдена.</p>
-    <a href="/" class="btn">Вернуться на главную</a>
-    <button onclick="location.reload();" class="btn">Перезагрузить страницу</button>
+    <div class="content">
+        <h1>Упсс! Страницы не найдено!</h1>
+        <p>Страницу, которую ты ищешь, не существует</p>
+        <a href="/" class="btn">На главную</a>
+        <button onclick="location.reload();" class="btn">Перезагрузить</button>
+    </div>
 </body>
 </html>
-
-  <script src="/script/mobile.js"></script>
