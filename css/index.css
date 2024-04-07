@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-header, nav, section, footer {
+header, nav, section {
   padding: 1em;
 }
 
@@ -56,125 +56,45 @@ section {
   transform: scale(1.1);
 }
 
-.telegram {
-  background-color: #0088cc;
-  color: #fff;
-}
+  .telegram {
+      background-color: #0088cc;
+    }
+    
+  .telegram:hover {
+      background-color: #005580;
+    }
 
-.telegram:hover {
-  background-color: #005580;
-}
+  .instagram {
+      background-color: #de577d;
+    }
+    
+  .instagram:hover {
+      background-color: #de2c5e;
+    }
 
-.discord {
-  background-color: #7289da;
-  color: #fff;
-}
-
-.discord:hover {
-  background-color: #677bc4;
-}
-
-.tiktok {
-  background-color: #6f42c1;
-  color: #fff;
-}
-
-.tiktok:hover {
-  background-color: #5d3aae;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-  background-color: #555;
-  transition: background-color 0.3s ease;
-}
-
-footer a:hover {
-  background-color: #777;
-}
-
-.google {
-  background-color: #4285F4;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.google:hover {
-  background-color: #357ae8;
-}
-
-.rutrackerlink {
-  background-color: #4CAF50;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.rutrackerlink:hover {
-  background-color: #45a049;
-}
-
-.uknowncheatslink {
-  background-color: #007BFF;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.uknowncheatslink:hover {
-  background-color: #0056b3;
-}
-
-.youtube-link {
-  background-color: #FF0000;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.youtube-link:hover {
-  background-color: #cc0000;
-}
-
-.steam-link {
-  background-color: #001C3F;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.steam-link:hover {
-  background-color: #000a1c;
-}
-
-.spotify-link {
-  background-color: #1DB954;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.spotify-link:hover {
-  background-color: #14813B;
-}
-
-.twitch-link {
-  background-color: #6441A5;
-  color: #fff;
-  margin-top: 10px;
-}
-
-.twitch-link:hover {
-  background-color: #4B3176;
-}
+  .xbox {
+      background-color: #107C10;
+    }
+    
+  .xbox:hover {
+      background-color: #266e26;
+    }
+    
+  .discord-link {
+      background-color: #7289da;
+    }
+    
+  .discord-link:hover {
+      background-color: #8696d1;
+    }
+    
+  .tiktok-link {
+      background-color: #000000;
+    }
+    
+  .tiktok-link:hover {
+      background-color: #1a1a1a;
+   }
 
 @media only screen and (max-width: 600px) {
   header {
